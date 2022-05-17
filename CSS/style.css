@@ -48,7 +48,8 @@ header nav a{
 /*FILME PRINCIPAL*/
 .fachada{
   font-size: 16px;
-  background:linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50)100%), url('../imgs/fachada.png');
+  background:  linear-gradient(rgba(0, 0, 0, .50),rgba(0,0,0,.50) 100%),url("../imgs/fachada.png");
+
 
   height:600px;
   background-size:cover;
@@ -68,7 +69,7 @@ header nav a{
 
 .titulo{
   color: var(--vermelho);
-  margin-top: 15%px;
+  margin-top: 15px;
   font-size: 40px;
   font-family: "Trebuchet MS" ,arial, sans-serif;
 }
